@@ -63,7 +63,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #7A1438;
 }
 
 .light {
@@ -168,6 +168,7 @@ a:focus {
     /* font-family: 'Finder'; */
     /* font-weight: 100 ; */
     font-size: 40px;
+    color: #A81C2F;
 }
 
 .intro .intro-body .intro-text {
@@ -182,6 +183,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 140px;
+
     }
 
     .intro .intro-body .intro-text {

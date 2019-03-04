@@ -7,7 +7,7 @@ description: "Numero, knjigovodstveni obrt"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#219ab3'
+  links: '#AD1D4B'
 
 # Footer settings
 footer: Numero
@@ -27,3 +27,5 @@ social:
 markdown: kramdown
 permalink: pretty
 remote_theme: jeromelachaud/grayscale-theme
+plugins:
+  - jekyll-seo-tag
