@@ -26,3 +26,4 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+remote-theme: jeromelachaud/grayscale-theme
