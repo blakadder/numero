@@ -1,0 +1,28 @@
+# Site settings
+title: Numero, knjigovodstveni obrt
+email: numero@optinet.hr
+url: https://numero.hr
+description: "Numero, knjigovodstveni obrt"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Numero
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/blakadder_
+  - title: telegram
+    url: https://t.me/blakadder
+  - title: facebook
+    url: https://www.facebook.com/Numero-knjigovodstveni-obrt-i-poslovno-savjetovanje-126330890723748/
+  - title: viber
+    url: viber://chat?number=38598712881
+
+# Build settings
+markdown: kramdown
+permalink: pretty

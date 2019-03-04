@@ -1,0 +1,22 @@
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h2>Posjetite nas</h2>
+              <p>od 09:00 do 15:00<br>ponedjeljak do petak</p>
+              <p>ili kontaktirajte</p>
+              <p><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;+385 98 712 881</p>
+              <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <ul class="list-inline banner-social-buttons">
+                  {% for network in site.social %}
+                  <li>
+                      <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                  </li>
+                  {% endfor %}</ul>
+                  <ul class="list-inline banner-social-buttons">
+                  <li><a href="https://goo.gl/maps/Zo1NfxPJATT2" class="btn btn-default btn-lg"><i class="fas fa-map-marker-alt fa-fw"></i>KAKO DO NAS</a>
+                  </li>
+                  </ul>
+            </div>
+        </div>
+    </section>
