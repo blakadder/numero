@@ -29,3 +29,4 @@ permalink: pretty
 remote_theme: jeromelachaud/grayscale-theme
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
